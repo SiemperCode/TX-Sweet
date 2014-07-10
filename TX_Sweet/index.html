@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    
+    <link href="Content/Bootstrap.FontAwsome.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+
+
+        <div id="bizness">
+            <span id="bizSpan">Account&nbsp;&nbsp;</span>
+
+            <i class="fa fa-shopping-cart" data-toggle="modal" data-target=".bs-example-modal-lg">&nbsp;Shopping Cart</i>
+            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content" id="shoppingCart">
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label><input class="form-control" id="exampleInputEmail1" type="email" />
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label><input class="form-control" id="exampleInputPassword1" type="password" />
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" /> Check me out</label>
+                            </div> <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <br />
+
+            <br />
+            <span>
+                Subscribe
+                <input type="text" id="eMail" placeholder="Enter your email..." />
+                <br />
+                <br />
+                Search
+                <input type="text" id="search" placeholder="Type here to search" />
+                <br />
+
+            </span>
+
+        </div>
+
+        <div class="row clearfix">
+            <div class="col-md-12 column" id="title">
+                <h3>
+                    <span><img src="http://innerspace.net/wp-content/uploads/2014/05/texasagain.jpg"></span>
+                    <span id="bizName">Texas Sweet</span>
+                </h3>
+                <div class="row clearfix">
+                    <div class="col-md-6 column" id="left-column">
+                        <img alt="140x140" src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRQnsOp4716FKn3zXe09QHRCyQnaJ6Vsx8OvlZhbLsb8lWmR3TL&usqp=CAY" class="img-rounded img-responsive" onclick="closeUp('topLeft')" data-toggle="modal" data-target=".bs-example-modal-sm" id="topLeft" />Tops<br /><br />
+                        <img alt="140x140" src="http://shoppingismycardio.com/wp-content/uploads/2014/02/2689208_Secede-Pink.jpg" class="img-rounded  img-responsive" onclick="closeUp('middleLeft')" data-toggle="modal" data-target=".bs-example-modal-sm" id="middleLeft" />TX tees<br /><br />
+                        <img alt="140x140" src="http://www.penbaypilot.com/sites/default/files/field/image/Handmade%202012%20pr_0.JPG" class="img-rounded img-responsive" onclick="closeUp('bottomLeft')" data-toggle="modal" data-target=".bs-example-modal-sm" id="bottomLeft" />Handmade<br />
+                    </div>
+                    <div class="col-md-6 column" id="right-column">
+                        <img alt="140x140" src="http://pumpsandiron.com/wp-content/uploads/2012/08/white-saboskirt-sun-dress-2.jpg" class="img-rounded img-responsive" onclick="closeUp('topRight')" data-target=".bs-example-modal-sm" id="topRight"/>Dresses<br /><br />
+                        <img alt="140x140" src="http://oceanmagazine.com/ocean/wp-content/uploads/2012/08/summer-accessories.jpg" class="img-rounded img-responsive" onclick="closeUp('middleRight')" data-toggle="modal" data-target=".bs-example-modal-sm" id="middleRight" />Accessories<br /><br />
+                        <img alt="140x140" src="http://www.smfpl.org/files/images/30s%20reproduction%20vintage%20clothing%20fashions.jpg" class="img-rounded img-responsive" onclick="closeUp('bottomRight')" data-toggle="modal" data-target=".bs-example-modal-sm" id="bottomRight" />Vintage<br /><br /><br />
+                        <!--Modal formatting for front page photos-->
+                        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="myModal">
+                            <div class="modal-dialog modal-sm">
+                                <div class="modal-content" >
+                                    <img alt="140x140" src="http://innerspace.net/wp-content/uploads/2014/05/texasagain.jpg" class="img-rounded img-responsive" id="modalPic">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <footer>
+            <span>
+                Follow Us:&nbsp;&nbsp;&nbsp;
+                <a href="http://www.facebook.com"> <i class="fa fa-facebook-square"></i></a>&nbsp;&nbsp;
+                <a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
+                <a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
+                <a href="http://www.pinterest.com/rebeccahipp/"><i class="fa fa-pinterest-square"></i></a>
+            </span><br />
+            <ul>
+                <li><strong>TX Sweet, LLC.</strong></li>
+
+                <li> 15803 Foxgate Road,</li>
+
+                <li>Houston, Texas  77079</li>
+
+                <li><abbr title="Phone">P:</abbr> </li>
+                <li> (888) 456-7890</li>
+            </ul>
+        </footer>
+    </div>
+
+
+
+    <script src="Scripts/jQuery.Bootstrap.js"></script>
+    <script src="_TXS_script1.js"></script>
+</body>
+
+</html>

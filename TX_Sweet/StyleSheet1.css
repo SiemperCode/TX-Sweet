@@ -1,0 +1,106 @@
+﻿body {
+    background-color: white; /*#0087BD*/
+}
+
+h3 {
+    font-family: 'Freestyle Script';
+    font-size: 175px;
+    color: #0087BD;
+}
+
+#bizName {
+    position: relative;
+    left: -225px;
+}
+
+footer ul li {
+    display: inline-block;
+    font-family: 'Freestyle Script';
+    font-size: 25px;
+    color: #0087BD;
+}
+
+.row clearfix {
+    font-size: 35px;
+}
+
+footer {
+    position: absolute;
+    bottom: -1000px;
+    font-family: 'Freestyle Script';
+    font-size: 25px;
+    color: #0087BD;
+    float: left;
+    line-height: 32px;
+    margin-left: 275px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+div {
+    font-family: 'Freestyle Script';
+    font-size: 45px;
+    color: #0087BD;
+}
+
+.html {
+    position: relative;
+    min-height: 100%;
+}
+
+#title img {
+    width: 35%;
+    height: auto;
+    left: 300px;
+}
+
+#left-column {
+    width: 200px;
+    height: 120px;
+    left: 250px;
+}
+
+    #left-column img {
+        width: 100%;
+        height: auto;
+    }
+
+
+#right-column {
+    width: 200px;
+    height: 120px;
+    left: 550px;
+}
+
+    #right-column img {
+        width: 100%;
+        height: auto;
+    }
+
+#bizness {
+    float: right;
+    line-height: 32px;
+    margin-left: 200px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#bizSpan {
+    display: inline-block;
+    float: left;
+}
+
+#bizness span input {
+    display: inline-block;
+    float: right;
+}
+
+#shoppingCart {
+    padding: 25px;
+    font-size-adjust: inherit;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    display: inline-block;
+}
